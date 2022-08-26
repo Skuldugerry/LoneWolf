@@ -22,7 +22,7 @@ public class Given_ActionChartManager extends BaseSpec {
 
     protected void given() {
         sectionManager = Mockito.mock(ISectionManager.class);
-        Mockito.when(sectionManager.getCurrent()).thenReturn(new Section("1"));
+        Mockito.when(sectionManager.getCurrent()).thenReturn(new Section("2"));
 
         character = mock(LoneWolf.class);
         logger = mock(Logger.class);
