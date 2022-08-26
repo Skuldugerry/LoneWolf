@@ -24,3 +24,19 @@ dependencies {
     compile 'com.android.support:appcompat-v7:21.0.3'
     compile project(':base')
 }
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+dependencies {
+  implementation 'com.google.android.gms:play-services-ads:21.1.0'
+}
